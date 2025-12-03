@@ -1,14 +1,111 @@
+.DS_Store
+
+# Virtual environments
+venv/
 .venv/
-/__pycache__/
-*.pyc
-*.pyo
-*.pyd
+env/
+env.bak/
+env_old/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django/Python specific
 *.sqlite3
 *.db
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+*.whl
+
+# Byte-compiled / native extensions
+*.so
+*.dylib
+
+# Logs and reports
 *.log
+*.out
+*.err
+logs/
+run/
 *.pot
 *.mo
+
+# Editor and system files
 *.swp
 .DS_Store
 .vscode/
 .idea/
+
+# Pytest / coverage
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+htmlcov/
+.tox/
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Environment files & secrets
+.env
+.env.*
+secret.*
+secrets.*
+
+# Notebooks and checkpoints
+*.ipynb
+
+# Machine Learning / Audio-Visual / ASR artifacts
+# Model weights and checkpoints
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.pb
+*.onnx
+
+# Save folders for experiments
+checkpoints/
+models/
+weights/
+saved_models/
+runs/
+tensorboard/
+tb_logs/
+experiments/
+outputs/
+results/
+
+# Data (datasets, audio files). Keep them out of VCS if they are large.
+data/
+dataset/
+datasets/
+raw_data/
+processed_data/
+audio/
+wav/
+wav_files/
+mp3/
+
+# Large archives
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.rar
+
+# Local configuration
+local_config.py
+
+# macOS and misc
+.DS_Store
